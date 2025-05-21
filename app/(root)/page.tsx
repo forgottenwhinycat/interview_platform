@@ -6,9 +6,9 @@ import InterviewCard from "@/components/InterviewCard";
 
 import {
   getCurrentUser,
-  getInterviewsByUserId,
-  getLatestInterviews,
 } from "@/lib/actions/auth.action";
+
+import { getInterviewsByUserId, getLatestInterviews } from "@/lib/actions/general.action";
 
 import { redirect } from "next/navigation";
 
